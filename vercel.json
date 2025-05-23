@@ -1,12 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/en/us/help/11-ways-to-talk-to-someone-at-american-airlines/",
-      "destination": "/en/us/help/11-ways-to-talk-to-someone-at-american-airlines/index.html"
-    },
-    {
-      "source": "/en/us/help/6-ways-to-speak-with-a-representative-at-american-airlines/",
-      "destination": "/en/us/help/6-ways-to-speak-with-a-representative-at-american-airlines/index.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
